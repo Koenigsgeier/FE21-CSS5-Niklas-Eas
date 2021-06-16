@@ -1,3 +1,5 @@
+
+
 .flexnav{
     display: grid;
     grid-template-columns: 15% 10% 10% 10% 1fr 10% 10%;
@@ -17,6 +19,7 @@
     height: 120%;
     background-color: rgb(196, 196, 196);
     font-size: 140%;
+    margin-left: 15px;
 }
 
 header {
@@ -27,15 +30,16 @@ header {
     top: 0;
     left: 0;
     justify-content: space-between;
-    padding: 15px 10px;
+    padding-top: 35px;
     z-index: 1;
     align-items: center;
-    padding-top: 4.5em;
+
   }
   .maingrid{
+      
       display: grid;
-      width: 101%;
-      grid-template-columns: 50% 25% 25%;
+      width: 100%;
+      grid-template-columns: 50% 24% 24%;
       grid-template-rows: 12em 10em 2em 1fr;
       column-gap: 1%;
   }
@@ -45,7 +49,7 @@ header {
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: rgb(196, 196, 196);
+    
 }
 #griddiv2 {
     grid-column-start: 2;
@@ -66,7 +70,6 @@ header {
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;  
-    background-color: rgb(196, 196, 196);
 }
 body {
     background-color: lightcyan;
@@ -74,8 +77,8 @@ body {
 
 .subgrid{
     display: grid;
-    width: 101%;
-    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+    grid-template-columns: 33% 33% 32%;
     grid-template-rows: 2em 20em 1fr;
     column-gap: 1%;
 }
