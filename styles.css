@@ -3,7 +3,7 @@ header {
   background: -webkit-gradient(linear, left top, right top, from(#e31e24), color-stop(150%, black), color-stop(150%, black));
   background: linear-gradient(90deg, #e31e24 0%, black 150%, black 150%);
   width: 100%;
-  height: 5em;
+  height: 6em;
   position: absolute;
   top: 0;
   left: 0;
@@ -16,7 +16,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 15px 10px;
+  /*padding: 15px 10px;*/
   z-index: 1;
 }
 
@@ -54,6 +54,7 @@ body {
 
 #logo {
   width: 6em;
+  margin-left: 10px !important;
   z-index: 2;
 }
 
