@@ -107,6 +107,7 @@ body {
 }
 
 #subdiv1 {
+  overflow: hidden;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 2;
@@ -117,6 +118,7 @@ body {
 }
 
 #subdiv2 {
+  overflow: hidden;
   -ms-grid-column: 2;
       grid-column-start: 2;
   grid-column-end: 3;
@@ -127,6 +129,7 @@ body {
 }
 
 #subdiv3 {
+  overflow: hidden;
   -ms-grid-column: 3;
       grid-column-start: 3;
   grid-column-end: 4;
@@ -134,5 +137,10 @@ body {
       grid-row-start: 2;
   grid-row-end: 3;
   background-color: #c4c4c4;
+}
+
+#image {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=advanced.css.map */
