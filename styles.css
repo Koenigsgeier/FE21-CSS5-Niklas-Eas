@@ -1,5 +1,7 @@
 header {
-  background-color: #E31E24;
+  background: #e31e24;
+  background: -webkit-gradient(linear, left top, right top, from(#e31e24), color-stop(150%, black), color-stop(150%, black));
+  background: linear-gradient(90deg, #e31e24 0%, black 150%, black 150%);
   width: 100%;
   height: 5em;
   position: absolute;
@@ -15,10 +17,15 @@ header {
       -ms-flex-align: center;
           align-items: center;
   padding: 15px 10px;
+  z-index: 1;
 }
 
 body {
-  background-color: grey;
+  background-image: url("ernesto-che-guevara-che-gevara.jpeg");
+  background-size: 90%;
+  background-color: #9fa49f;
+  font-family: "Mate SC", serif;
+  text-align: center;
 }
 
 .flexnav {
@@ -31,9 +38,10 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin: 2em;
+  margin: 1em;
   width: 100%;
   text-decoration: none;
+  z-index: 1;
 }
 
 .flexnav a {
@@ -41,9 +49,36 @@ body {
   text-decoration: none;
   color: black;
   font-size: large;
+  z-index: 1;
 }
 
 #logo {
   width: 6em;
+  z-index: 2;
+}
+
+.quote {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  z-index: 1;
+  color: #9B1619;
+}
+
+audio {
+  color: red;
+  opacity: 19%;
+  margin-right: 2em;
+  z-index: 1;
+}
+
+.quote2 {
+  position: absolute;
+  top: 13%;
+  left: 70%;
+  margin-right: 1em;
+  font-size: x-large;
+  z-index: 1;
+  color: #9B1619;
 }
 /*# sourceMappingURL=styles.css.map */
